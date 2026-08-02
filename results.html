@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Result - Ideal Allied School</title>
+
+<link rel="stylesheet" href="style.css">
+
+<style>
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#f4f7fb;
+}
+
+.result-container{
+    width:90%;
+    max-width:500px;
+    margin:60px auto;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 0 15px rgba(0,0,0,0.15);
+}
+
+.result-container h2{
+    text-align:center;
+    color:#0b7d32;
+    margin-bottom:25px;
+}
+
+label{
+    display:block;
+    margin-top:15px;
+    font-weight:bold;
+}
+
+select,
+input{
+    width:100%;
+    padding:10px;
+    margin-top:5px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    font-size:16px;
+}
+
+button{
+    width:100%;
+    margin-top:25px;
+    padding:12px;
+    background:#0b7d32;
+    color:white;
+    border:none;
+    border-radius:5px;
+    font-size:18px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#066125;
+}
+</style>
+
+</head>
+<body>
+
+<div class="result-container">
+
+<h2>Student Result</h2>
+
+<label>Session</label>
+
+<select>
+<option>2025</option>
+<option>2026</option>
+</select>
+
+<label>Class</label>
+
+<select>
+<option>Select Class</option>
+<option>Class 1</option>
+<option>Class 2</option>
+<option>Class 3</option>
+<option>Class 4</option>
+<option>Class 5</option>
+<option>Class 6</option>
+<option>Class 7</option>
+<option>Class 8</option>
+<option>Class 9</option>
+<option>Class 10</option>
+<option>1st Year</option>
+<option>2nd Year</option>
+</select>
+
+<label>Roll Number</label>
+
+<input type="text" placeholder="Enter Roll Number">
+
+<button>View Result</button>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
