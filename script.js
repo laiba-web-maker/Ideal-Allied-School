@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
 });
-let showVideo = false;
+let showVideo = true;
 
 const image = document.getElementById("bannerImage");
 const video = document.getElementById("bannerVideo");
